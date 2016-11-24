@@ -1,3 +1,4 @@
+//MinaActivity > SubActivity , Intent화면전환
 package com.example.swpc.myapplication02;
 
 import android.content.Intent;
