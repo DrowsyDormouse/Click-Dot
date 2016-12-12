@@ -6,5 +6,5 @@ package com.example.song.clickdot;
 
 public class Item {
     public static boolean item1 = false;
-    public  void setItem1(boolean i) {this.item1 = i;}
+//    public static int item2 = 0;
 }
