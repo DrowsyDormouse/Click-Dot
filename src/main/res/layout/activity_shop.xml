@@ -2,17 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_image_store">
 
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/c4"
-        android:layout_marginTop="105dp"
-        android:id="@+id/item_CS"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
 
     <Button
         android:text="Return"
@@ -25,4 +17,23 @@
         android:layout_marginStart="21dp"
         android:layout_marginTop="20dp"
         android:id="@+id/returnBt" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/item_cs"
+        android:layout_marginTop="24dp"
+        android:id="@+id/item_CS"
+        android:layout_below="@+id/returnBt"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/item_bb"
+        android:id="@+id/item_Bb"
+        android:layout_below="@+id/item_CS"
+        android:layout_alignLeft="@+id/item_CS"
+        android:layout_alignStart="@+id/item_CS"
+        android:layout_marginTop="14dp" />
 </RelativeLayout>
