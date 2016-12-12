@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/main">
+    android:id="@+id/main"
+    android:background="@drawable/bg_image_main">
 
 
     <ImageView
@@ -13,19 +14,6 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/Image_char" />
-
-    <TextView
-        android:text="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:textSize="30sp"
-        android:layout_marginBottom="16dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="62dp"
-        android:layout_marginStart="62dp" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -44,5 +32,27 @@
         android:layout_marginBottom="153dp"
         android:layout_above="@+id/Image_char"
         android:layout_toRightOf="@+id/Image_char" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loveText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/moneyText"
+        android:layout_alignStart="@+id/moneyText"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/moneyText"
+        android:layout_above="@+id/loveText"
+        android:layout_toLeftOf="@+id/Image_char"
+        android:layout_toStartOf="@+id/Image_char" />
 
 </RelativeLayout>
